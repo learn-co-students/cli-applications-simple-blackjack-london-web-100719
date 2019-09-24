@@ -1,3 +1,4 @@
+
 def welcome
   puts("Welcome to the Blackjack Table")
 end
@@ -56,6 +57,6 @@ def runner
   while (total < 21) do
     hit?(total)
   end 
-  end_game
+end_game
 end
     
